@@ -11,7 +11,7 @@ Vite ile Vue Projesi Oluşturmak
 
 Vite bir derleme aracı. Derleme aracı ne diye sorarsan; projemiz için çıktı alacağımız zaman bu derleyiciler kodumuzu derleyip, dönüştürüyorlar. Kabaca, bizim yazdığımız kodları tarayıcının anlayacağı kodlara dönüştürüyorlar. Bunu yaparken tarayıcılar arasındaki uyumluluk da göz önünde bulunduruyor.
 
-Standart olarak derleyiciler olarak Webpack, Babel, Parcel gibi araçlar kullanıyordu. Ancak projeler büyümeye, karmaşıklaşmaya başladı ve dolayısıyla projeleri derlemek ve hatta localde çalıştırmak hayli ağırlaştı. Evan You (Vue'nun yaratıcısı) ise daha verimli ve güçlü bir derleyici oluşturmaya karar verdi ve Vite ortaya çıktı. Vite; Webpack, Rollup ve Parcel gibi araçlardan güç alarak ağır projelerin altından kalkması hedeflendi. Aynı zamanda Vite; sadece Vue ile de değil, React ve Vanilla JavaScript ile de kullanılabiliyor. Vite hakkında çok daha detaylı ve teknik bilgiye erişmek istiyorsan resmi dökümantasyonuna bakmalısın. Biz sadece kullanmaya başlamadan önce kabac anlatmak istedik.
+Standart olarak derleyiciler olarak Webpack, Babel, Parcel gibi araçlar kullanıyordu. Ancak projeler büyümeye, karmaşıklaşmaya başladı ve dolayısıyla projeleri derlemek ve hatta localde çalıştırmak hayli ağırlaştı. Evan You (Vue'nun yaratıcısı) ise daha verimli ve güçlü bir derleyici oluşturmaya karar verdi ve Vite ortaya çıktı. Vite; Webpack, Rollup ve Parcel gibi araçlardan güç alarak ağır projelerin altından kalkması hedeflendi. Aynı zamanda Vite; sadece Vue ile de değil, React ve Vanilla JavaScript ile de kullanılabiliyor. Vite hakkında çok daha detaylı ve teknik bilgiye erişmek istiyorsan resmi dökümantasyonuna bakmalısın. Biz sadece kullanmaya başlamadan önce kabaca anlatmak istedik.
 
 <br/><br/>
 
@@ -121,7 +121,7 @@ Her şey düzgünce çalıştıysa aşağıdaki gibi bir ekran göreceğiz:
 
 ![](https://i.imgur.com/Y1eQIZd.png)
 
-Burada `Local: http://localhost:5173/` ibaresini görüyoruz. Buradaki URL, bizim projemizin URL'si. Bunu kopyalayıp herhangi bir tarayıcıya yapıştırıyoruz ve bizi projenin hazır iskeleti karşılıyor:
+Burada `Local: http://localhost:5173/` ibaresini görüyoruz. Buradaki URL, projemizin URL'si. Bunu kopyalayıp herhangi bir tarayıcıya yapıştırıyoruz ve bizi projenin hazır iskeleti karşılıyor:
 
 ![](https://i.imgur.com/DP26CgZ.png)
 
