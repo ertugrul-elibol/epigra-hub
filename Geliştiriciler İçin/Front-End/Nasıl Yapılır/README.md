@@ -1,17 +1,21 @@
 ![](https://i.imgur.com/lnLCnfj.png)
-<h1 style="text-align:center">
+<h1 align="center">
 Vite ile Vue Projesi Oluşturmak
 </h1>
 
-> Burada gördüğün her şeyi, hatta daha fazlasını [resmi Vite dökümanından](https://vitejs.dev/guide/ "resmi Vite dökümanından") inceleyebilirsin. ^.^
+> <p align="center">Burada gördüğün her şeyi, hatta daha fazlasını <a href="https://vitejs.dev/guide/">resmi Vite dökümanından</a> inceleyebilirsin. ^.^</p>
 
-#### Vite ne? Neden Vite?
+<br/><br/>
+
+## Vite ne? Neden Vite?
 
 Vite bir derleme aracı. Derleme aracı ne diye sorarsan; projemiz için çıktı alacağımız zaman bu derleyiciler kodumuzu derleyip, dönüştürüyorlar. Kabaca, bizim yazdığımız kodları tarayıcının anlayacağı kodlara dönüştürüyorlar. Bunu yaparken tarayıcılar arasındaki uyumluluk da göz önünde bulunduruyor.
 
-Standart olarak derleyiciler olarak Webpack, Babel, Parcel gibi araçlar kullanıyordu. Ancak projeler büyümeye, karmaşıklaşmaya başladı ve dolayısıyla projeleri derlemek ve hatta localde çalıştırmak hayli ağırlaştı. Evan You (Vue'nun yaratıcısı) ise daha verimli ve güçlü bir derleyici oluşturmaya karar verdi ve Vite ortaya çıktı. Vite; Webpack, Rollup ve Parcel gibi araçlardan güç alarak ağır projelerin altından kalkması hedeflendi. Vite hakkında çok daha detaylı ve teknik bilgiye erişmek istiyorsan resmi dökümantasyonuna bakmalısın. Biz sadece kullanmaya başlamadan önce kabac anlatmak istedik.
+Standart olarak derleyiciler olarak Webpack, Babel, Parcel gibi araçlar kullanıyordu. Ancak projeler büyümeye, karmaşıklaşmaya başladı ve dolayısıyla projeleri derlemek ve hatta localde çalıştırmak hayli ağırlaştı. Evan You (Vue'nun yaratıcısı) ise daha verimli ve güçlü bir derleyici oluşturmaya karar verdi ve Vite ortaya çıktı. Vite; Webpack, Rollup ve Parcel gibi araçlardan güç alarak ağır projelerin altından kalkması hedeflendi. Aynı zamanda Vite; sadece Vue ile de değil, React ve Vanilla JavaScript ile de kullanılabiliyor. Vite hakkında çok daha detaylı ve teknik bilgiye erişmek istiyorsan resmi dökümantasyonuna bakmalısın. Biz sadece kullanmaya başlamadan önce kabac anlatmak istedik.
 
-#### Adım #1: Vite için gerekli komutlar
+<br/><br/>
+
+## Adım #1: Vite için gerekli komutlar
 Vite'in ne olduğunu ve bize ne sağladığını temel olarak anladığımıza göre, artık Vite ile Vue projemizi oluşturacak komutları öğrenebiliriz.
 
 Öncelikle senden bir terminal açmanı isteyeceğim çünkü `npm` komutunu kullanacağız. Biz terminal olarak [Tabby](https://tabby.sh "Tabby") öneriyoruz. Yine de sen bilirsin "tabby".  :sweat_smile:  Ama bu bir örnek olduğu için şimdilik `cmd (Komut İstemcisi)` üzerinden göstereceğiz.
@@ -22,8 +26,9 @@ Kalbimiz gibi tertemiz konsolumuzu açtıktan sonra, projemizi oluşturacağım�
 
 İstediğimiz alana gittikten sonra projemizi yüklemek için gerekli Vite kodlarını çalıştırabiliriz.
 
+<br/><br/>
 
-#### Adım #2: Kurulum için gerekli komutlar
+## Adım #2: Kurulum için gerekli komutlar
 
 | NPM kullanıyorsan  | Yarn kullanıyorsan  |  PNPM kullanıyorsan |
 | :------------: | :------------: | :------------: |
@@ -41,8 +46,9 @@ Bir sonraki adımda ise bize saf JavaScript mi, TypeScript mi, Nuxt mı yoksa ö
 
 ![](https://i.imgur.com/qkYJniB.png)
 
+<br/><br/>
 
-#### Adım #2.1: Kurulum için kısayol komutları
+## Adım #2.1: Kurulum için kısayol komutları
 ------------
 
 
@@ -80,12 +86,15 @@ Bir sonraki adımda ise bize saf JavaScript mi, TypeScript mi, Nuxt mı yoksa ö
 
 ------------
 
-#### Adım #3: Kurulum sonrası gerekli komutlar
+<br/><br/>
+
+## Adım #3: Kurulum sonrası gerekli komutlar
 
 Bu işlemlerden sonra projemiz oluşturulmuş oluyor. Proje oluşturulduktan sonra ise bize gerekli adımları belirtiyor.
 
-| Adımlar | Açıklama |
+| <img width="441" height="1"> | |
 | :------------: | :------------: |
+| Adımlar | Açıklama |
 |  `cd vite-test`  | İlk başta girdiğimiz proje isminde bir klasör oluşturuldu. Bu komutla birlikte onun içine giriyoruz.  |
 | `npm install`  | Her şeyin hızlı olması adına Vite, içindeki paketleri bir anda yüklemiyor. Biz, üstteki komutla birlikte oluşturduğumuz klasörün içine girip, bu komutla birlikte gerekli paketleri yüklüyoruz. |
 | `npm run dev` | Gerekli yüklemeler yapıldıysa, bu komutla birlikte projemizi localhost'ta çalıştırıyoruz. |
@@ -100,7 +109,9 @@ Daha sonra ise `npm install` yazarak ikinci adımı tamamlıyoruz.
 
 > Bu işlem zaman alabilir. Yükleme hızı donanımdan donanıma değişiklik gösterecektir.
 
-#### Adım #3.1: Projeyi ayağa kaldırmak (localhost)
+<br/><br/>
+
+## Adım #3.1: Projeyi ayağa kaldırmak (localhost)
 
 Gerekli yüklemelerden sonra ise `npm run dev` diyerek projemizi, localhost'umuzda çalıştırıyoruz.
 
