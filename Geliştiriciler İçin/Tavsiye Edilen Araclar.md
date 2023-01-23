@@ -1,9 +1,14 @@
-# Tavsiye Edilen Araçlar ve Uygulamalar
+![](https://i.imgur.com/Q6CIiAO.png)
+<h1 align="center">
+Tavsiye Edilen Araçlar ve Uygulamalar
+</h1>
 
 ### Terminal
 
 - [**Tabby**](https://tabby.sh "**Tabby**")
 	- CMD'den sıkıldın mı? Yeterli gelmediğini mi düşünüyorsun? Ya da daha iyisini mi arıyorsun? Öyleyse Tabby'yi kesinlikle denemen gerek.
+
+<br/>
 
 ### VS Code Eklentileri
 - **Front-End**
@@ -16,6 +21,8 @@
 	- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier")
 	- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint "ESLint")
 
+<br/>
+
 ### Tarayıcı Eklentileri
 
 - [**Clear Cache**](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=tr "**Clear Cache**")
@@ -24,7 +31,7 @@
 	- Vue ve React için geliştirme araçları. Bu araçlar sayesinde bütün bileşenleri (component) görüntüleyebilir, sahip oldukları prop'ları ve state'leri görüntüleyebilirsin.
 - [**JSON Formatter**](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=tr "**JSON Formatter**")
 	- JSON dosyalarındaki verileri okuması daha kolay bir formatta görüntülemeni sağlayacak.
-- [** Fake Form Filler **](https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=tr "** Fake Form Filler **")
+- [**Fake Form Filler**](https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=tr "** Fake Form Filler **")
 	- Varsayalım ki bir form üzerinde çalışıyorsun. Onlarca input var. Her test sırasında tek tek içlerini doldurmak hayli zaman alacak. Bu eklenti sayesindeyse işin çok kolaylaşacak çünkü senin yerine dolduracak.
 - [**Dark Reader**](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh "**Dark Reader**")
 	- Bazı web sitelerin karanlık tema seçeneği yok ve gözünü yakıyorlar, değil mi? Bu eklenti sayesinde sayfalar otomatik olarak karanlık temaya bürünecek.
