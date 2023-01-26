@@ -11,15 +11,17 @@ Tavsiye Edilen Araçlar ve Uygulamalar
 <br/>
 
 ### VS Code Eklentileri
-- **Front-End**
-	- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar "Volar")
+- **Genel**
 	- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree "Todo Tree")
 	- [Todo Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight "Todo Highlight")
 	- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens "Git Lens")
-	- [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind "Headwind")
-	- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss "Tailwind CSS IntelliSense")
 	- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier")
 	- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint "ESLint")
+
+- **Front-End**
+	- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar "Volar")
+	- [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind "Headwind")
+	- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss "Tailwind CSS IntelliSense")
 
 <br/>
 
